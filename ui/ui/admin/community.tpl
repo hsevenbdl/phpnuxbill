@@ -272,7 +272,7 @@
         $.getJSON("./version.json?" + Math.random(), function(data) {
             $('#currentVersion').html('Current Version: ' + data.version);
         });
-        $.getJSON("https://raw.githubusercontent.com/hotspotbilling/phpnuxbill/master/version.json?" + Math
+        $.getJSON("https://raw.githubusercontent.com/hsevenbdl/phpnuxbill/master/version.json?" + Math
             .random(),
             function(data) {
                 $('#latestVersion').html('Latest Version: ' + data.version);
