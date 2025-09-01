@@ -13,8 +13,8 @@
                 <h3 class="box-title">{Lang::T('Contribution')} PHPNuxBill</h3>
             </div>
             <div class="box-body">
-                <a href="https://github.com/hotspotbilling/phpnuxbill/graphs/contributors" target="_blank">
-                    <img src="https://contrib.rocks/image?repo=hotspotbilling/phpnuxbill&columns=10" width="100%" />
+                <a href="https://github.com/hsevenbdl/phpnuxbill/graphs/contributors" target="_blank">
+                    <img src="https://contrib.rocks/image?repo=hsevenbdl/phpnuxbill&columns=10" width="100%" />
                 </a>
             </div>
         </div>
@@ -113,31 +113,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-sm-6">
-        <div class="box box-hovered mb20 box-primary">
-            <div class="box-header">
-                <h3 class="box-title">{Lang::T('Chat with Me — Paid Support $50')}</h3>
-            </div>
-            <div class="box-body">
-                {Lang::T('Confirm your donation to continue this paid support. Or, ask about alternative donations available to suit your needs.')}
-            </div>
-            <div class="box-footer">
-                <a href="https://t.me/ibnux" target="_blank" class="btn btn-primary btn-sm btn-block">{Lang::T('Telegram')}</a>
-            </div>
-        </div>
-        <div class="box box-primary box-hovered mb20 activities">
-            <div class="box-header">
-                <h3 class="box-title">{Lang::T('WhatsApp Gateway and Free Telegram Bot')}</h3>
-            </div>
-            <div class="box-body">
-                {Lang::T('Connect your PHPNuxBill to WhatsApp efficiently using WhatsApp Gateway. Also, create Telegram bots easily and practically.')}
-            </div>
-            <div class="box-footer">
-                <a href="https://wa.nux.my.id/login" target="_blank"
-                    class="btn btn-primary btn-sm btn-block">wa.nux.my.id</a>
-            </div>
-        </div>
-    </div>
+
     <div class="col-sm-6" id="update">
         <div class="box box-primary box-hovered mb20 activities">
             <div class="box-header">
@@ -146,7 +122,7 @@
             <div class="box-body">
                 <b>PHPNuxBill</b>
                 {Lang::T('is a Hotspot and PPPoE billing platform for Mikrotik developed using PHP. The application uses Mikrotik API to communicate with the router, ensuring efficient and easy integration. If you feel you get more benefits from this application, we would greatly appreciate your contribution through donation.')}<br>{Lang::T('Watch project –')} <a
-                    href="https://github.com/hotspotbilling/phpnuxbill" target="_blank">{Lang::T('IN HERE')}</a>
+                    href="https://github.com/hsevenbdl/phpnuxbill" target="_blank">{Lang::T('IN HERE')}</a>
             </div>
             <div class="box-footer" id="currentVersion">ver</div>
             <div class="box-footer" id="latestVersion">ver</div>
@@ -154,7 +130,7 @@
                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
                     <a href="./update.php"
                         class="btn btn-success btn-sm btn-block">{Lang::T('Install Latest Version')}</a>
-                    <a href="https://github.com/hotspotbilling/phpnuxbill/archive/refs/heads/master.zip" target="_blank"
+                    <a href="https://github.com/hsevenbdl/phpnuxbill/archive/refs/heads/master.zip" target="_blank"
                         class="btn btn-warning btn-sm btn-block text-black">{Lang::T('Download Latest Version')}</a>
                 </div>
                 <center><a href="{Text::url('community/rollback')}"
@@ -165,7 +141,7 @@
                 <div class="btn-group btn-group-justified" role="group" aria-label="...">
                     <a href="./CHANGELOG.md" target="_blank"
                         class="btn btn-default btn-sm btn-block">{Lang::T('Current Changelog')}</a>
-                    <a href="https://github.com/hotspotbilling/phpnuxbill/blob/master/CHANGELOG.md" target="_blank"
+                    <a href="https://github.com/hsevenbdl/phpnuxbill/blob/master/CHANGELOG.md" target="_blank"
                         class="btn btn-default btn-sm btn-block">{Lang::T('Repo Changelog')}</a>
                 </div>
             </div>
